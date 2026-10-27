@@ -1,0 +1,18 @@
+# Football Transfer Value Predictor — Python dependencies
+# Tested on Python 3.10 / 3.11 / 3.12  (Windows, macOS, Linux)
+# Install: pip install -r requirements.txt
+
+# Core data science
+numpy==1.26.4
+pandas==2.2.2
+scikit-learn==1.4.2
+
+# Model serialisation
+joblib==1.4.2
+
+# Dashboard and visualisation
+streamlit==1.35.0
+plotly==5.22.0
+
+# Optional — for faster CSV parsing (automatically used by pandas if installed)
+pyarrow==16.1.0
